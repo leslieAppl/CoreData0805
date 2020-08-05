@@ -1,4 +1,5 @@
 # Core Data
+Book: Core Data in Swift
 
 ## initializeCoreDataStack()
 - ManagedObjectModel
