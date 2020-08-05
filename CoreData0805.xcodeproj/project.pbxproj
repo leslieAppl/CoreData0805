@@ -13,6 +13,8 @@
 		CE6B9AAD24DADB1100FF67C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B9AAB24DADB1100FF67C4 /* Main.storyboard */; };
 		CE6B9AAF24DADB1500FF67C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B9AAE24DADB1500FF67C4 /* Assets.xcassets */; };
 		CE6B9AB224DADB1500FF67C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B9AB024DADB1500FF67C4 /* LaunchScreen.storyboard */; };
+		CE6B9ABB24DAE47D00FF67C4 /* PPRecipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6B9AB924DAE47D00FF67C4 /* PPRecipes.xcdatamodeld */; };
+		CE6B9ABD24DAE60F00FF67C4 /* PPRDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B9ABC24DAE60F00FF67C4 /* PPRDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE6B9AAE24DADB1500FF67C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6B9AB124DADB1500FF67C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6B9AB324DADB1500FF67C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B9ABA24DAE47D00FF67C4 /* PPRecipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PPRecipes.xcdatamodel; sourceTree = "<group>"; };
+		CE6B9ABC24DAE60F00FF67C4 /* PPRDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		CE6B9AA424DADB1100FF67C4 /* CoreData0805 */ = {
 			isa = PBXGroup;
 			children = (
+				CE6B9ABE24DAE63B00FF67C4 /* Model */,
+				CE6B9ABF24DAE64200FF67C4 /* View */,
+				CE6B9AC024DAE64D00FF67C4 /* Controller */,
 				CE6B9AA524DADB1100FF67C4 /* AppDelegate.swift */,
 				CE6B9AA724DADB1100FF67C4 /* SceneDelegate.swift */,
-				CE6B9AA924DADB1100FF67C4 /* ViewController.swift */,
 				CE6B9AAB24DADB1100FF67C4 /* Main.storyboard */,
 				CE6B9AAE24DADB1500FF67C4 /* Assets.xcassets */,
 				CE6B9AB024DADB1500FF67C4 /* LaunchScreen.storyboard */,
 				CE6B9AB324DADB1500FF67C4 /* Info.plist */,
 			);
 			path = CoreData0805;
+			sourceTree = "<group>";
+		};
+		CE6B9ABE24DAE63B00FF67C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B9AB924DAE47D00FF67C4 /* PPRecipes.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE6B9ABF24DAE64200FF67C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE6B9AC024DAE64D00FF67C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B9ABC24DAE60F00FF67C4 /* PPRDataController.swift */,
+				CE6B9AA924DADB1100FF67C4 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6B9ABD24DAE60F00FF67C4 /* PPRDataController.swift in Sources */,
 				CE6B9AAA24DADB1100FF67C4 /* ViewController.swift in Sources */,
+				CE6B9ABB24DAE47D00FF67C4 /* PPRecipes.xcdatamodeld in Sources */,
 				CE6B9AA624DADB1100FF67C4 /* AppDelegate.swift in Sources */,
 				CE6B9AA824DADB1100FF67C4 /* SceneDelegate.swift in Sources */,
 			);
@@ -338,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE6B9AB924DAE47D00FF67C4 /* PPRecipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE6B9ABA24DAE47D00FF67C4 /* PPRecipes.xcdatamodel */,
+			);
+			currentVersion = CE6B9ABA24DAE47D00FF67C4 /* PPRecipes.xcdatamodel */;
+			path = PPRecipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE6B9A9A24DADB1100FF67C4 /* Project object */;
 }

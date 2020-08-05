@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES" codeGenerationType="class"/>
+    <entity name="RecipeIngredient" representedClassName="RecipeIngredient" syncable="YES" codeGenerationType="class"/>
+    <entity name="Type" representedClassName="Type" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="Recipe" positionX="-63" positionY="-18" width="128" height="43"/>
+        <element name="RecipeIngredient" positionX="-54" positionY="-9" width="128" height="43"/>
+        <element name="Type" positionX="-36" positionY="9" width="128" height="43"/>
+    </elements>
+</model>
